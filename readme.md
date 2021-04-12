@@ -48,7 +48,7 @@ Link To Site  | One Thing I'd Like To Incorporate |
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 
-[Link](https://docs.google.com/document/d/1HPAU0DuwFwmDBkNP7Q8Dk_c9hHDX41f0kFZw4pBHEgA/edit?usp=sharing)
+[Wireframes](https://docs.google.com/document/d/1HPAU0DuwFwmDBkNP7Q8Dk_c9hHDX41f0kFZw4pBHEgA/edit?usp=sharing)
 
 Wireframing Resources:
 
@@ -56,7 +56,7 @@ Wireframing Resources:
 
 ## Time/Priority Matrix 
 
-[Link](https://docs.google.com/document/d/1OJ5YjlQn5hWix9BgTAjFHpBxDr5xBQoHHYVC7384N-Q/edit?usp=sharing)
+[Time/Priority Matrix](https://docs.google.com/document/d/1OJ5YjlQn5hWix9BgTAjFHpBxDr5xBQoHHYVC7384N-Q/edit?usp=sharing)
 
 Include a full list of features that have been prioritized based on the `Time and Priority` Matix.  This involves drawing a a square.  In the middle of the square, on the x axis draw a line.  The most left part of the line should start with 0hrs and the end of the line should include 2hrs.  This line will be used to estimate how much time any one feature will take to complete. 
 
@@ -100,28 +100,27 @@ Time frames are also key in the development cycle.  You have limited time to cod
 #### MVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Use flexbox for content | H | 2hr | hr |
+| Use flexbox for content | H | 3hr | hr |
 | HTML and CSS semantic markup | H | 3hr | hr |
-| Working with API | H | 3hrs|  hr | 
-| Use CSS Grid for multi-column layout | H | 1hr | hr |
+| Working with API | H | 3hr | hr | 
+| Use CSS Grid for multi-column layout | H | 3hr | hr |
 | Mobile, tablet, and desktop responsive | H | 3hr | hr |
-| Pull in projects via API call from google sheet | H | 1hr | hr |
-| Be deployed and accessible online either via Github Pages or Surge. | H | 1hr | hr
-
-| Total | H | 14hrs| hrs |
+| Pull in projects via API call from google sheet | H | 3hr | hr |
+| Be deployed and accessible online either via Github Pages or Surge. | H | 3hr | hr
+| Total | H | 21hrs | hrs |
 
 #### PostMVP
 | Component | Priority | Estimated Time | Actual Time |
 | --- | :---: |  :---: | :---: | 
-| Adding interactivity to grid items | M | 2hr | hr | hr |
-| Making color scheme consistent | L | 1hr | hr |
-| Adding professional photo | L | 1hr | hr |
-| Regular nav | M | 1hr | hr |
-| Hamburger | M | 1hr | hr |
+| Adding interactivity to grid items | M | 3hr | hr | hr |
+| Making color scheme consistent | L | 2hr | hr |
+| Adding professional photo | L | 2hr | hr |
+| Regular nav | M | 3hr | hr |
+| Hamburger | M | 3hr | hr |
 | Write and add bio | L | 1hr | hr |
 | Add social media icons | M | 2hr | hr |
-| Add bootstrap design | H | 2hr | hr |
-| Total | H | 11hrs| hrs |
+| Add bootstrap design | H | 3hr | hr |
+| Total | H | 19hrs | hrs |
 
 ## Additional Libraries
 - Bootstrap, which will be used to make an grid template for my projects.
