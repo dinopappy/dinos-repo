@@ -12,11 +12,12 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|Monday| Project Description | Incomplete
-|Monday| Wireframes / Priority Matrix / Timeline | Incomplete
+|Monday| Project Description | Complete
+|Monday| Wireframes / Priority Matrix / Timeline | Complete
 |Tuesday| Core Application Structure (HTML, CSS, etc.) | Incomplete
 |Wednesday| MVP & Bug Fixes | Incomplete
 |Wednesday| Responsiveness | Incomplete
+|Thursday| Post-MVP | Incomplete
 |Thursday| Final Touches | Incomplete
 |Friday| Present | Incomplete
 
