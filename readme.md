@@ -48,7 +48,7 @@ Link To Site  | One Thing I'd Like To Incorporate |
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Do not include the actual image and have it render on the page.  
 
-[Link] (https://docs.google.com/document/d/1HPAU0DuwFwmDBkNP7Q8Dk_c9hHDX41f0kFZw4pBHEgA/edit?usp=sharing)
+[Link](https://docs.google.com/document/d/1HPAU0DuwFwmDBkNP7Q8Dk_c9hHDX41f0kFZw4pBHEgA/edit?usp=sharing)
 
 Wireframing Resources:
 
