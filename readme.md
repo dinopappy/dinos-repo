@@ -28,7 +28,8 @@ I want a to build a simple yet professional website that showcases my future pro
 
 ## Google Sheet
 
-[Portfolio spreadsheet](https://docs.google.com/spreadsheets/d/1_gF9Jwz71nK6o8FToZKJ7h-pNMTrez016mtdOwk4BPw/edit#gid=0)
+[Portfolio spreadsheet](https://docs.google.com/spreadsheets/d/1_gF9Jwz71nK6o8FToZKJ7h-pNMTrez016mtdOwk4BPw/edit?usp=sharing)
+
 
 
 ## Portfolio I want to Emulate
