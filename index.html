@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Portfolio Project</title>
 
     <!-- BOOTSTRAP 5  https://getbootstrap.com/docs/5.0/getting-started/introduction/-->
     <link
@@ -32,10 +32,29 @@
 
     <!-- YOUR CUSTOM CODE -->
     <link rel="stylesheet" href="css/style.css" />
+    <!-- Font Awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="js/webcomponents.js" defer></script>
     <script src="js/app.js" defer></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('a').click(function(){
+        $('span').toggleClass('a')
+      })
+    })</script>
   </head>
   <body>
-    <template-example></template-example>
+    <div class="menu-btn">
+      <div class="menu-burger"></div>
+    </div>
   </body>
 </html>
+  <nav>
+    <ul class="main-menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+
+  </nav>

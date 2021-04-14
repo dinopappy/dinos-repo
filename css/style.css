@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:grey;
+}
+
+nav ul {
+    display: none;
+}
+
+/* HAMBURGER MENU */
+
+.menu-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    border: 3px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.menu-burger {
+    width: 40px;
+    height: 5px;
+    background: #fff;
+    border-radius: 8px;
+    transition: all .3s ease-in-out;
+}
+
+.menu-burger::before,
+.menu-burger::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 5px;
+    background: #fff;
+    border-radius: 8px;
+    transition: all .3s ease-in-out;
+}
+.menu-burger::before {
+    transform: translateY(-16px);
+}
+.menu-burger::after {
+    transform: translateY(16px);
+}
+
+/* ANIMATION */
+.menu-btn.open .menu-burger {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+}
+
+.menu-btn.open .menu-burger::before {
+    transform: rotate(45deg) 
+    translate(35px, -35px);
+}
+
+.menu-btn.open .menu-burger::after {
+    transform: rotate(-45deg) 
+    translate(35px, 35px);
+}

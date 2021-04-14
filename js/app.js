@@ -22,7 +22,28 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1T1pz8WHywZm7pRIBYkzpS2mxnAGN
     /////////////////////////////////////////////////
     ////////////////////////////////////////////////
 })
-//.catch in case of an error
-.catch((error) => {
-    console.error(error)
+
+const menuBtn = document.querySelector('.menu-btn');
+let menuOpen = false;
+menuBtn.addEventListener('click', () => {
+    if (!menuOpen) {
+        menuBtn.classList.add('open');
+        menuOpen = true;
+    } else {
+        menuBtn.classList.remove('open');
+        menuOpen = false;
+    }
+});
+menuBtn.addEventListener('click', () => {
+    if (!menuOpen) {
+        $("nav .main-menu").css("display", "none")
+    } else {
+        $("nav .main-menu").css("display", "block")
+    }
 })
+
+
+//.catch in case of an error
+// .catch((error) => {
+//     console.error(error)
+// })
