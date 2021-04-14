@@ -36,9 +36,16 @@ menuBtn.addEventListener('click', () => {
 });
 menuBtn.addEventListener('click', () => {
     if (!menuOpen) {
-        $("nav .main-menu").css("display", "none")
+        $("nav .main-menu, nav .main-menu li a").css("display", "none")
     } else {
         $("nav .main-menu").css("display", "block")
+        $("nav .main-menu, nav .main-menu li a").css("font-size", "40px")
+        $("nav .main-menu, nav .main-menu li a").css("list-style-type", "none")
+        $("nav .main-menu, nav .main-menu li a").css("text-decoration", "none")
+        $("nav .main-menu, nav .main-menu li a").css("position", "relative")
+        $("nav .main-menu, nav .main-menu li a").css("top", "40px")
+        $("nav .main-menu, nav .main-menu li a").css("right", "10px")
+        $("nav .main-menu, nav .main-menu li a").css("color", "red")
     }
 })
 

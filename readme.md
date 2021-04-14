@@ -38,7 +38,7 @@ Search and compare at least 3 profile web sites.  Record your findings in the ta
 
 Link To Site  | One Thing I'd Like To Incorporate | 
 | ------------- | ------------- |
-| [indmatthew.com](http://findmatthew.com/)| Layout, background design, blog section, nav placement |
+| [findmatthew.com](http://findmatthew.com/)| Layout, background design, blog section, nav placement |
 |[sebkay.com](https://sebkay.com/) | Tabs, professional picture |
 | [mattfarley.ca](http://mattfarley.ca/) |  Layout of the projects, consistent color scheme, simple and modern design |
 
