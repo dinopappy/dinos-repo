@@ -21,7 +21,6 @@ nav .menu-2 a {
     text-align: center;
     padding: 14px;
     text-decoration: none;
-    font-size: 17px;
 }
 
 /* HAMBURGER MENU */
@@ -172,6 +171,10 @@ nav .menu-2 a {
     position: absolute;
     text-align: center;
     top: 2350px;
+}
+
+.card img {
+    max-height: 170px;
 }
 
 @media only screen and (max-width: 375px) {
