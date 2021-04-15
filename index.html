@@ -143,12 +143,29 @@ After creating a website for the business on Wix, I became interested in website
 <div class="contact">
 <h1 class="contact-h1">Contact</h1>
 <h3 class="contact-h3">Have a question or interested in working with me? Don't hesitate to reach out!</h3>
-  <form class="contact-form">
+  <!-- <form class="contact-form" action="https://formspree.io/f/{form_id}" method="post"></form>
     <input type="text" placeholder="Name">
     <input type="email" placeholder="Email">
     <input placeholder="Your message">
-    <input type="submit" value="Submit">
-  </form>
+    <input type="submit" value="Submit"> -->
+    <form action="https://formspree.io/f/xwkappqq" method="POST" class="contact-form">
+      <label>
+        Name:
+        <textarea name="message"></textarea>
+      </label>
+      <label>
+    Email:
+    <input type="email" name="_replyto">
+  </label>
+  <label>
+    Message:
+    <textarea name="message"></textarea>
+  </label>
+
+  <!-- your other form fields go here -->
+
+  <button type="submit">Send</button>
+</form>
   <!-- <ul>
   <li><i class="fab fa-facebook-square"></i></li>
   <li><i class="fab fa-linkedin"></i></li>

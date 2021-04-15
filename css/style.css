@@ -1,5 +1,5 @@
 body {
-    background:grey;
+    background: grey;
     margin: 0;
 }
 
@@ -153,24 +153,25 @@ nav .menu-2 a {
 
 .contact {
     position: relative;
+    top: 2100px;
 }
 
 .contact-form {
     display: flex;
     flex-direction: column;
-    position: relative;
-    top: 2500px;
+    position: absolute;
+    top: 150px;
 }
 
 .contact-h1 {
     position: absolute;
-    top: 2300px;
+    text-align: center;
 }
 
 .contact-h3 {
     position: absolute;
     text-align: center;
-    top: 2350px;
+    top: 50px;
 }
 
 .card img {

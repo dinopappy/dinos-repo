@@ -1,7 +1,7 @@
 //////////////////////////////////////////////////
 // Get data from Google Sheets
 /////////////////////////////////////////////////
-$.ajax("https://spreadsheets.google.com/feeds/list/1T1pz8WHywZm7pRIBYkzpS2mxnAGNrC9A2NfuZRHhvoY/1/public/full?alt=json")
+$.ajax("https://spreadsheets.google.com/feeds/list/1_gF9Jwz71nK6o8FToZKJ7h-pNMTrez016mtdOwk4BPw/1/public/full?alt=json")
 //.then for when the data when arrives
 .then((data) => {
     console.log(data)
