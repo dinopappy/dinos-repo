@@ -177,6 +177,11 @@ nav .menu-2 a {
     max-height: 170px;
 }
 
+.about p {
+    text-align: justify;
+    padding: 10px;
+}
+
 @media only screen and (max-width: 375px) {
     nav .menu-2 {
         text-decoration: none;

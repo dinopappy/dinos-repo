@@ -21,35 +21,55 @@ $.ajax("https://spreadsheets.google.com/feeds/list/1T1pz8WHywZm7pRIBYkzpS2mxnAGN
     /////////////////////////////////////////////////
     /////////////////////////////////////////////////
     ////////////////////////////////////////////////
+
+    projects.forEach(prj => {
+        // console.log(prj.project)
+        
+        let $projectCard = $(`
+            <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card">
+            <img src="${prj.image}" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">${prj.project}</h5>
+                <p class="card-text">
+                        ${prj.description}
+                </p>
+                <a href="${prj.liveurl}" class="btn btn-primary" target="_blank">Check It Out</a>
+            </div>
+            </div>
+        </div>
+        `)
+        $('div.row').append($projectCard)
+    })
 })
 
-const menuBtn = document.querySelector('.menu-btn');
-let menuOpen = false;
-menuBtn.addEventListener('click', () => {
-    if (!menuOpen) {
-        menuBtn.classList.add('open');
-        menuOpen = true;
-    } else {
-        menuBtn.classList.remove('open');
-        menuOpen = false;
-    }
-});
-menuBtn.addEventListener('click', () => {
-    if (menuOpen) {
-        $(".main-menu").css("display", "block")
-        $(".main-menu, .main-menu li a").css("font-size", "20px")
-        $(".main-menu, .main-menu li a").css("background-color", "blue")
-        $(".main-menu, .main-menu li a").css("width", "100%")
-        $(".main-menu, .main-menu li a").css("text-align", "center")
-        $(".main-menu, .main-menu li a").css("list-style-type", "none")
-        $(".main-menu, .main-menu li a").css("text-decoration", "none")
-        $(".main-menu, .main-menu li a").css("position", "relative")
-        $(".main-menu, .main-menu li a").css("color", "red")
-        $(".main-menu, .main-menu li a").css("z-index", "3")  
-    } else {
-        $(".main-menu, .main-menu li a").css("display", "none")
-    }
-})
+// const menuBtn = document.querySelector('.menu-btn');
+// let menuOpen = false;
+// menuBtn.addEventListener('click', () => {
+//     if (!menuOpen) {
+//         menuBtn.classList.add('open');
+//         menuOpen = true;
+//     } else {
+//         menuBtn.classList.remove('open');
+//         menuOpen = false;
+//     }
+// });
+// menuBtn.addEventListener('click', () => {
+//     if (menuOpen) {
+//         $(".main-menu").css("display", "block")
+//         $(".main-menu, .main-menu li a").css("font-size", "20px")
+//         $(".main-menu, .main-menu li a").css("background-color", "blue")
+//         $(".main-menu, .main-menu li a").css("width", "100%")
+//         $(".main-menu, .main-menu li a").css("text-align", "center")
+//         $(".main-menu, .main-menu li a").css("list-style-type", "none")
+//         $(".main-menu, .main-menu li a").css("text-decoration", "none")
+//         $(".main-menu, .main-menu li a").css("position", "relative")
+//         $(".main-menu, .main-menu li a").css("color", "red")
+//         $(".main-menu, .main-menu li a").css("z-index", "3")  
+//     } else {
+//         $(".main-menu, .main-menu li a").css("display", "none")
+//     }
+// })
 
 
 //.catch in case of an error
