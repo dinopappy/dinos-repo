@@ -1,21 +1,33 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     background:grey;
+    margin: 0;
 }
 
-nav ul {
-    display: none;
+nav {
+    background-color: red;
+}
+
+nav .menu-2 {
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    margin: 0 auto;
+}
+
+nav .menu-2 a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 /* HAMBURGER MENU */
 
-.menu-btn {
-    position: relative;
+/* .menu-btn {
+    position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,13 +35,13 @@ nav ul {
     height: 65px;
     cursor: pointer;
     transition: all .5s ease-in-out;
-    border: 3px solid #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
     left: 10px;
     top: 10px;
+    z-index: 10;
 }
 
 .menu-burger {
@@ -55,10 +67,10 @@ nav ul {
 }
 .menu-burger::after {
     transform: translateY(16px);
-}
+} */
 
 /* ANIMATION */
-.menu-btn.open .menu-burger {
+/* .menu-btn.open .menu-burger {
     transform: translateX(-50px);
     background: transparent;
     box-shadow: none;
@@ -72,9 +84,9 @@ nav ul {
 .menu-btn.open .menu-burger::after {
     transform: rotate(-45deg) 
     translate(35px, 35px);
-}
+} */
 
-h1 {
+.home h1 {
     margin: 0;
     position: absolute;
     top: 40%;
@@ -84,16 +96,99 @@ h1 {
     font-size: 30px;
 }
 
-p {
+.home p {
     margin: 0;
     position: absolute;
-    top: 45%;
+    top: 47%;
     left: 50%;
     margin-right: -70%;
     transform: translate(-50%, -50%);
     font-size: 20px;
 }
 
+.home a {
+    margin: 0;
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    margin-right: -70%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    background-color: red;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
 .name {
     color: red;
+}
+
+.projects {
+    position: relative;
+    top: 600px;
+}
+.projects h1 {
+    text-align: center;
+}
+
+.projects .container .card {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 10px;
+}
+
+.about {
+    position: relative;
+    text-align: center;
+    top: 700px;
+}
+
+.about h2 {
+    position: relative;
+    top: 100px;
+}
+
+.contact {
+    position: relative;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 2500px;
+}
+
+.contact-h1 {
+    position: absolute;
+    top: 2300px;
+}
+
+.contact-h3 {
+    position: absolute;
+    text-align: center;
+    top: 2350px;
+}
+
+@media only screen and (max-width: 375px) {
+    nav .menu-2 {
+        text-decoration: none;
+        color: white;
+        list-style-type: none;
+        display: flex;
+        margin: 0 auto;
+    }
+    
+    nav .menu-2 a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        text-decoration: none;
+        font-size: 17px;
+        padding: 5px;
+    }
 }

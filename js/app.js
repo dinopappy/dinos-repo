@@ -35,17 +35,19 @@ menuBtn.addEventListener('click', () => {
     }
 });
 menuBtn.addEventListener('click', () => {
-    if (!menuOpen) {
-        $("nav .main-menu, nav .main-menu li a").css("display", "none")
+    if (menuOpen) {
+        $(".main-menu").css("display", "block")
+        $(".main-menu, .main-menu li a").css("font-size", "20px")
+        $(".main-menu, .main-menu li a").css("background-color", "blue")
+        $(".main-menu, .main-menu li a").css("width", "100%")
+        $(".main-menu, .main-menu li a").css("text-align", "center")
+        $(".main-menu, .main-menu li a").css("list-style-type", "none")
+        $(".main-menu, .main-menu li a").css("text-decoration", "none")
+        $(".main-menu, .main-menu li a").css("position", "relative")
+        $(".main-menu, .main-menu li a").css("color", "red")
+        $(".main-menu, .main-menu li a").css("z-index", "3")  
     } else {
-        $("nav .main-menu").css("display", "block")
-        $("nav .main-menu, nav .main-menu li a").css("font-size", "40px")
-        $("nav .main-menu, nav .main-menu li a").css("list-style-type", "none")
-        $("nav .main-menu, nav .main-menu li a").css("text-decoration", "none")
-        $("nav .main-menu, nav .main-menu li a").css("position", "relative")
-        $("nav .main-menu, nav .main-menu li a").css("top", "40px")
-        $("nav .main-menu, nav .main-menu li a").css("right", "10px")
-        $("nav .main-menu, nav .main-menu li a").css("color", "red")
+        $(".main-menu, .main-menu li a").css("display", "none")
     }
 })
 
