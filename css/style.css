@@ -1,15 +1,18 @@
 body {
-    background: grey;
+    background: #1f2833;
     margin: 0;
 }
 
 nav {
-    background-color: red;
+    position: fixed;
+    z-index: 1000;
+    background-color: #1f2833;
+    width: 100%;
 }
 
 nav .menu-2 {
     text-decoration: none;
-    color: white;
+    color: #5c7288;
     list-style-type: none;
     display: flex;
     margin: 0 auto;
@@ -17,73 +20,11 @@ nav .menu-2 {
 
 nav .menu-2 a {
     float: left;
-    color: #f2f2f2;
+    color: #c5c6c7;
     text-align: center;
     padding: 14px;
     text-decoration: none;
 }
-
-/* HAMBURGER MENU */
-
-/* .menu-btn {
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 65px;
-    height: 65px;
-    cursor: pointer;
-    transition: all .5s ease-in-out;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 10px;
-    top: 10px;
-    z-index: 10;
-}
-
-.menu-burger {
-    width: 40px;
-    height: 5px;
-    background: #fff;
-    border-radius: 8px;
-    transition: all .3s ease-in-out;
-}
-
-.menu-burger::before,
-.menu-burger::after {
-    content: '';
-    position: absolute;
-    width: 40px;
-    height: 5px;
-    background: #fff;
-    border-radius: 8px;
-    transition: all .3s ease-in-out;
-}
-.menu-burger::before {
-    transform: translateY(-16px);
-}
-.menu-burger::after {
-    transform: translateY(16px);
-} */
-
-/* ANIMATION */
-/* .menu-btn.open .menu-burger {
-    transform: translateX(-50px);
-    background: transparent;
-    box-shadow: none;
-}
-
-.menu-btn.open .menu-burger::before {
-    transform: rotate(45deg) 
-    translate(35px, -35px);
-}
-
-.menu-btn.open .menu-burger::after {
-    transform: rotate(-45deg) 
-    translate(35px, 35px);
-} */
 
 .home h1 {
     margin: 0;
@@ -93,6 +34,7 @@ nav .menu-2 a {
     margin-right: -70%;
     transform: translate(-50%, -50%);
     font-size: 30px;
+    color: #66fcf1
 }
 
 .home p {
@@ -103,6 +45,7 @@ nav .menu-2 a {
     margin-right: -70%;
     transform: translate(-50%, -50%);
     font-size: 20px;
+    color: #c5c6c7;
 }
 
 .home a {
@@ -113,7 +56,7 @@ nav .menu-2 a {
     margin-right: -70%;
     transform: translate(-50%, -50%);
     font-size: 20px;
-    background-color: red;
+    background-color: #45a29e;
     border-radius: 5px;
     color: white;
     text-decoration: none;
@@ -121,15 +64,17 @@ nav .menu-2 a {
 }
 
 .name {
-    color: red;
+    color:366fc1;
 }
 
 .projects {
     position: relative;
-    top: 600px;
+    top: 770px;
 }
 .projects h1 {
     text-align: center;
+    color: #66fcf1;
+    font-size: 40px;
 }
 
 .projects .container .card {
@@ -137,18 +82,33 @@ nav .menu-2 a {
     margin-left: auto;
     margin-right: auto;
     width: 90%;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .about {
     position: relative;
     text-align: center;
-    top: 700px;
+    top: 100px;
 }
 
-.about h2 {
-    position: relative;
-    top: 100px;
+.about h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    text-align: justify;
+    padding: 10px;
+    color: #c5c6c7;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.about img {
+    height: 280px;
+    border-radius: 10px;
+    float: right;
+    margin: 10px;
 }
 
 .contact {
@@ -178,11 +138,6 @@ nav .menu-2 a {
     max-height: 170px;
 }
 
-.about p {
-    text-align: justify;
-    padding: 10px;
-}
-
 @media only screen and (max-width: 375px) {
     nav .menu-2 {
         text-decoration: none;
@@ -194,10 +149,16 @@ nav .menu-2 a {
     
     nav .menu-2 a {
         float: left;
-        color: #f2f2f2;
+        color: #c5c6c7;
         text-align: center;
         text-decoration: none;
         font-size: 17px;
-        padding: 5px;
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .projects {
+        position: relative;
+        top: 820px;
     }
 }
