@@ -10,7 +10,7 @@ body {
 }
 
 .home, .projects, .about, .contact {
-    scroll-snap-align: center;
+    /* scroll-snap-align: center; */
 }
 
 nav {
@@ -77,7 +77,7 @@ nav .menu-2 a:hover {
     left: 50%;
     margin-right: -70%;
     transform: translate(-50%, -50%);
-    font-size: 20px;
+    font-size: 15px;
     background-color: #45a29e;
     border-radius: 5px;
     color: white;
@@ -169,6 +169,8 @@ nav .menu-2 a:hover {
     text-align: center;
     top: 70px;
     color: #c5c6c7;
+    left: 15%;
+    right: 15%;
 }
 
 .card img {
