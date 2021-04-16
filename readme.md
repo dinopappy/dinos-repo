@@ -73,8 +73,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 #### MVP (examples)
 
 - Use semantic markup for HTML and CSS, adhering to best practices.
-- Use CSS GRID to create a multi-column layout
-- Use Flexbox for content
+- Use bootstrap for layout of projects
 - Mobile first, then tablet and desktop responsive
 - Pull in projects via API call from google sheet
 - Be deployed and accessible online either via Github Pages or Surge.
@@ -88,7 +87,7 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 - Regular Nav
 - Writing a bio
 - Adding social media icons
-- Add bootstrap design
+- Add contact form
 
 
 ## Functional Components
