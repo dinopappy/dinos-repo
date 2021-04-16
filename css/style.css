@@ -4,13 +4,7 @@ body {
     height: 100vh;
     line-height: 1.6;
     overflow-y: scroll; 
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
   font-family: 'Rubik', sans-serif;
-}
-
-.home, .projects, .about, .contact {
-    /* scroll-snap-align: center; */
 }
 
 nav {
@@ -212,15 +206,16 @@ nav .menu-2 a:hover {
         padding: 20px;
     }
     #home h1 {
-        font-size: 60px;
+        font-size: 50px;
     }
 
     #home p {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     #home a {
-        font-size: 30px;
+        font-size: 25px;
+
     }
 
     nav .menu-2 li a {
