@@ -43,7 +43,9 @@ nav .menu-2 a {
 }
 
 nav .menu-2 a:hover {
-   text-decoration: underline;
+   color: #1f2833;
+   background-color: #66fcf1;
+   transition-duration: .5s;
 }
 
 #home h1 {
@@ -91,6 +93,7 @@ nav .menu-2 a:hover {
     position: relative;
     top: 770px;
 }
+
 .projects h1 {
     text-align: center;
     color: #66fcf1;
@@ -263,6 +266,6 @@ nav .menu-2 a:hover {
 
 @media only screen and (min-width: 750px) {
     .card img {
-        min-height: 200px
+        min-height: 180px;
     }
 }
