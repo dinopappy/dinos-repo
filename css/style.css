@@ -194,6 +194,11 @@ nav .menu-2 a:hover {
         position: relative;
         top: 820px;
     }
+
+    .contact {
+        top: 350px;
+        margin-bottom: 200px;
+    }
 }
 
 @media only screen and (min-width: 750px) {
@@ -248,7 +253,8 @@ nav .menu-2 a:hover {
     }
 
     .contact {
-        top: 250px;
+        top: 550px;
+        margin-bottom: 300px;
     }
 
     .contact h1 {
@@ -259,9 +265,6 @@ nav .menu-2 a:hover {
         top: 130px;
         padding: 20px;
     }
-}
-
-@media only screen and (min-width: 750px) {
     .card img {
         min-height: 180px;
     }
