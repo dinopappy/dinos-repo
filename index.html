@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
     <title>Portfolio Project</title>
 
     <!-- BOOTSTRAP 5  https://getbootstrap.com/docs/5.0/getting-started/introduction/-->
@@ -59,22 +61,22 @@
      -->
   <nav>
     <ul class="menu-2">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Projects</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#proj">Projects</a></li>
+      <li><a href="#about-me">About</a></li>
+      <li><a href="#contact-h1">Contact</a></li>
     </ul>
   </nav>
 
-  <div class="home">
+  <div id="home">
   <h1>Hello, I'm <span class="name">Dino Papalia</span>.</h1>
   <p>I'm an aspiring full-stack engineer.</p>
-  <a href="#">Check Out My Work →</a>
+  <a href="#proj">Check Out My Work →</a>
 </div>
 
 <!-- Projects -->
 <div class="projects">
-  <h1>Projects</h1>
+  <h1 id="proj">Projects</h1>
   <div class="container">
     <div class="row">
 
@@ -83,7 +85,7 @@
 
 <!-- About -->
 <div class="about">
-<h1>About Me</h1>
+<h1 id="about-me">About Me</h1>
 <img src="https://i.ibb.co/MsvHV5b/IMG-2179.jpg" alt="Professional photo">
 <p>Hi, I'm Dino! I live in Acton, MA. In 2020, I graduated with a bachelor's degree from James Madison University 
   with a major in Communication Studies and a minor in Business. After graduating, I worked at the family business for a year (Papalia Home Services) as a marketing coordinator.
@@ -93,8 +95,8 @@ After creating a website for the business on Wix, I immediately became intereste
 
 <!-- Contact -->
 <div class="contact">
-<h1 class="contact-h1">Contact</h1>
-<h3 class="contact-h3">Have a question or interested in working with me? Don't hesitate to reach out!</h3>
+  <h1 id="contact-h1">Contact</h1>
+    <h3 class="contact-h3">Have a question or interested in working with me? Don't hesitate to reach out!</h3>
   <!-- <form class="contact-form" action="https://formspree.io/f/{form_id}" method="post"></form>
     <input type="text" placeholder="Name">
     <input type="email" placeholder="Email">
@@ -103,21 +105,21 @@ After creating a website for the business on Wix, I immediately became intereste
     <form action="https://formspree.io/f/xwkappqq" method="POST" class="contact-form">
       <label>
         Name:
-        <textarea name="message"></textarea>
+        <textarea name="message" class="area"></textarea>
       </label>
       <label>
     Email:
-    <input type="email" name="_replyto">
+    <input type="email" name="_replyto" class="area">
   </label>
   <label>
     Message:
-    <textarea name="message"></textarea>
+    <textarea name="message" class="area"></textarea>
   </label>
 
   <!-- your other form fields go here -->
 
-  <button type="submit">Send</button>
-</form>
+    <button type="submit">Send</button>
+  </form>
   <!-- <ul>
   <li><i class="fab fa-facebook-square"></i></li>
   <li><i class="fab fa-linkedin"></i></li>

@@ -1,6 +1,16 @@
 body {
     background: #1f2833;
     margin: 0;
+    height: 100vh;
+    line-height: 1.6;
+    overflow-y: scroll; 
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
+  font-family: 'Rubik', sans-serif;
+}
+
+.home, .projects, .about, .contact {
+    scroll-snap-align: center;
 }
 
 nav {
@@ -8,6 +18,7 @@ nav {
     z-index: 1000;
     background-color: #1f2833;
     width: 100%;
+    border-bottom: solid #66fcf1;
 }
 
 nav .menu-2 {
@@ -24,9 +35,18 @@ nav .menu-2 a {
     text-align: center;
     padding: 14px;
     text-decoration: none;
+    font-size: 18px;
 }
 
-.home h1 {
+#home a:hover {
+    color: #1f2833;
+}
+
+nav .menu-2 a:hover {
+   text-decoration: underline;
+}
+
+#home h1 {
     margin: 0;
     position: absolute;
     top: 40%;
@@ -37,7 +57,7 @@ nav .menu-2 a {
     color: #66fcf1
 }
 
-.home p {
+#home p {
     margin: 0;
     position: absolute;
     top: 47%;
@@ -48,7 +68,7 @@ nav .menu-2 a {
     color: #c5c6c7;
 }
 
-.home a {
+#home a {
     margin: 0;
     position: absolute;
     top: 56%;
@@ -91,47 +111,61 @@ nav .menu-2 a {
     top: 100px;
 }
 
-.about h1 {
+#about-me {
     font-size: 40px;
     margin-bottom: 20px;
 }
 
 .about p {
     text-align: justify;
-    padding: 10px;
+    padding: 20px;
     color: #c5c6c7;
     text-align: justify;
     font-size: 20px;
 }
 
 .about img {
-    height: 280px;
+    height: 270px;
     border-radius: 10px;
     float: right;
-    margin: 10px;
+    margin: 10px 20px 0px 10px;
 }
 
 .contact {
     position: relative;
-    top: 2100px;
+    top: 200px;
 }
 
 .contact-form {
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 150px;
+    position: relative;
+    top: 100px;
+    color: #c5c6c7;
+    padding: 50px;
 }
 
-.contact-h1 {
-    position: absolute;
+.contact-form button {
+    background-color: #c5c6c7;
+    width: 25%;
+    border-radius: 4px;
+}
+
+.area {
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+#contact-h1 {
     text-align: center;
 }
 
 .contact-h3 {
     position: absolute;
     text-align: center;
-    top: 50px;
+    top: 70px;
+    color: #c5c6c7;
 }
 
 .card img {
@@ -160,5 +194,75 @@ nav .menu-2 a {
     .projects {
         position: relative;
         top: 820px;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .projects {
+        top: 1100px;
+    }
+
+    .projects h1 {
+        font-size: 50px;
+        padding: 20px;
+    }
+    #home h1 {
+        font-size: 60px;
+    }
+
+    #home p {
+        font-size: 30px;
+    }
+
+    #home a {
+        font-size: 30px;
+    }
+
+    nav .menu-2 li a {
+        font-size: 20px;
+        margin: 0 10px;
+    }
+
+    .about {
+        top: 200px;
+    }
+
+    .projects .container .card {
+        margin-top: 50px;
+    }
+
+    #about-me {
+        font-size: 50px;
+    }
+
+    .about p {
+        font-size: 25px;
+        padding: 30px;
+        line-height: 50px;
+    }
+
+    .about img {
+        height: 400px;
+        padding: 20px;
+        border-radius: 30px;
+    }
+
+    .contact {
+        top: 250px;
+    }
+
+    .contact h1 {
+        font-size: 50px;
+    }
+
+    .contact h3 {
+        top: 130px;
+        padding: 20px;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .card img {
+        min-height: 200px
     }
 }
